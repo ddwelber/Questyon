@@ -1,33 +1,76 @@
 # Questyon Forum 🌎
 
+Escolha a sua língua / Choose your language:  
+[🇧🇷 Português](#portugues) | [🇺🇸 English](#english)
+
+---
+
+## 🇧🇷 Português <a name="portugues"></a>
+
 Questyon é um fórum de perguntas e respostas onde os usuários podem abrir tópicos sobre qualquer assunto. Além disso, é possível interagir com tópicos de outros usuários, adicionando respostas ou comentários. O projeto foi desenvolvido seguindo o padrão de arquitetura DDD (Domain-Driven Design) e Clean Architecture, garantindo uma estrutura modular e bem organizada, facilitando a manutenção e evolução do sistema.
 
-## Ferramentas e tecnologias utilizadas 🛠
+### Ferramentas e tecnologias utilizadas 🛠
 
-### Backend
-  - Node.js
-  - Nest.js
-  - TypeScript
-  - PostgreSQL
-  - Prisma
-  - Zod
-  - Redis
-  - JSON Web Token
-  - Cloudflare R2
-  - Docker
-  - Vitest
+#### Backend
+- Node.js
+- Nest.js
+- TypeScript
+- PostgreSQL
+- Prisma
+- Zod
+- Redis
+- JSON Web Token
+- Cloudflare R2
+- Docker
+- Vitest
 
-## Principais funcionalidades 🧬
-  - [x] **Registro de Usuários**: Permite que novos usuários criem uma conta na plataforma.
-  - [x] **Autenticação de Usuário**: Usuários podem se autenticar utilizando e-mail e senha.
-  - [x] **Criação de Tópicos**: Usuários autenticados podem criar novos tópicos sobre qualquer assunto.
-  - [x] **Interação com Tópicos**: Usuários podem interagir com tópicos de outros usuários criando respostas.
-  - [x] **Comentários**: É possível adicionar comentários tanto em tópicos quanto em respostas.
-  - [x] **Melhor Resposta**: O autor de um tópico pode selecionar uma resposta como a melhor.
-  - [x] **Notificações de Melhor Resposta**: O autor de uma resposta é notificado caso sua resposta seja eleita a melhor pelo autor do tópico.
-  - [x] **Notificações de Interação**: O autor de um tópico é notificado sempre que seu tópico recebe uma resposta ou comentário de outros usuários.
-  - [x] **Anexos**: Usuários podem adicionar anexos ao criar tópicos ou respostas.
-  - [x] **Edição de Tópicos**: Usuários podem editar o conteúdo dos seus tópicos.
-  - [x] **Exclusão de Tópicos**: Usuários podem excluir seus tópicos.
-  - [x] **Edição de Respostas**: Usuários podem editar o conteúdo das suas respostas.
-  - [x] **Exclusão de Respostas**: Usuários podem excluir suas respostas.
+### Principais funcionalidades 🧬
+- [x] **Registro de Usuários**
+- [x] **Autenticação de Usuário**
+- [x] **Criação de Tópicos**
+- [x] **Interação com Tópicos**
+- [x] **Comentários**
+- [x] **Melhor Resposta**
+- [x] **Notificações de Melhor Resposta**
+- [x] **Notificações de Interação**
+- [x] **Anexos**
+- [x] **Edição de Tópicos**
+- [x] **Exclusão de Tópicos**
+- [x] **Edição de Respostas**
+- [x] **Exclusão de Respostas**
+
+---
+
+## 🇺🇸 English <a name="english"></a>
+
+Questyon is a question-and-answer forum where users can create threads on any topic. Additionally, users can interact with other users' threads by adding answers or comments. The project was developed following DDD (Domain-Driven Design) and Clean Architecture, ensuring a modular and well-organized structure that facilitates system maintenance and evolution.
+
+### Tools and Technologies 🛠
+
+#### Backend
+- Node.js
+- Nest.js
+- TypeScript
+- PostgreSQL
+- Prisma
+- Zod
+- Redis
+- JSON Web Token
+- Cloudflare R2
+- Docker
+- Vitest
+
+### Main Features 🧬
+- [x] **User Registration**
+- [x] **User Authentication**
+- [x] **Thread Creation**
+- [x] **Thread Interaction**
+- [x] **Comments**
+- [x] **Best Answer**
+- [x] **Best Answer Notifications**
+- [x] **Interaction Notifications**
+- [x] **Attachments**
+- [x] **Thread Editing**
+- [x] **Thread Deletion**
+- [x] **Answer Editing**
+- [x] **Answer Deletion**
